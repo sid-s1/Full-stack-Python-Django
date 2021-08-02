@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trying out higher level input types</title>
+  </head>
+  <body>
+    <h1>Stranger Curiosity Form</h1>
+    <form method="get">
+      <h3>Are you from India?</h3>
+      <label for="india">Hindustani hain hum</label>
+      <input id="india" type="radio" name="loc" value="domestic">
+      <label for="pardesi">Nope</label>
+      <input id="pardesi" type="radio" name="loc" value="international">
+
+      <h3>How would you rate this country?</h3>
+      <select class="" name="stars">
+        <option value="great">5</option>
+        <option value="good">4</option>
+        <option value="okay">3</option>
+        <option value="fair">2</option>
+        <option value="bad">1</option>
+      </select>
+
+      <h3>Do you want to say something else?</h3>
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+      
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
