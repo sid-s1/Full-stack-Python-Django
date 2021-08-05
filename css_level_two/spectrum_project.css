@@ -1,0 +1,27 @@
+.tab{
+  margin: auto;
+}
+#hed{
+  text-align: center;
+  font-family: 'MonteCarlo';
+}
+td{
+  height: 500px;
+  width: 100px;
+  border: 5px solid white;
+}
+#one{
+  background-color: #8ECAE6;
+}
+#two{
+  background-color: #219EBC;
+}
+#three{
+  background-color: #023047;
+}
+#four{
+    background-color: #FFB703;
+}
+#five{
+    background-color: #FB8500;
+}
